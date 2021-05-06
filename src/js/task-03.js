@@ -19,7 +19,7 @@ const images = [
 
 
 const newPicture = images.map(image =>{
-    return `<li><img src = ${image.url} alt = ${image.alt} url = ${image.url}></img></li>`
+    return `<li><img src = '${image.url}' alt = '${image.alt}' url = '${image.url}'></img></li>`
 });
 
 
