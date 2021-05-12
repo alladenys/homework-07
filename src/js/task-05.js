@@ -6,8 +6,7 @@ function fillInput(event) {
        nameOutput.innerText  = 'незнакомец'; 
     } else if(nameInput.value === ' '){
         nameOutput.innerText  = 'незнакомец'; 
-    }
-    else {
+    } else {
     nameOutput.innerText  = nameInput.value;
     }
     return 'Привет, ${nameOutput.innerText}!';
